@@ -23,5 +23,5 @@ describe("divide", () => {
     // negative test cases 4
     it("throws Error when dividing by zero", () => {
         expect(() => divide(6, 0)).toThrow("Division by zero is not allowed");
-    });
+    }); 
 });
